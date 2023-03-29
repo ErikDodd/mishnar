@@ -44,9 +44,15 @@ p, h1 {
   align-items: center;
 }
 
-a {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 
+
+ul {
+  list-style: none;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
 }
+
+
