@@ -1,6 +1,6 @@
 .photos-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
+    grid-template-columns: repeat(auto-fit, minmax(75px, 100px));
     grid-gap: 100px;
     justify-content: center;
     align-items: center;
@@ -14,8 +14,8 @@
 
 .photos-grid img:hover {
     transform: scale(1.1);
-    border: 2px solid #340c4d;
-    box-shadow: 0 0 5px #340c4d,
-        0 0 10px #340c4d,
-        0 0 15px #340c4d
+    border: 2px solid #2a2f23;
+    box-shadow: 0 0 5px #2a2f23,
+        0 0 10px #2a2f23,
+        0 0 15px #2a2f23
 }
