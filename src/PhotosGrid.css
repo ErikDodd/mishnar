@@ -1,13 +1,21 @@
 .photos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
-    grid-gap: 20px;
+    grid-gap: 100px;
     justify-content: center;
-        align-items: center;
+    align-items: center;
 }
 
 .photos-grid img {
-    max-width: 100%;
-    max-height: 100%;
-    
+    max-width: 150%;
+    max-height: 150%;
+    transition: transform 0.3s ease;
+}
+
+.photos-grid img:hover {
+    transform: scale(1.1);
+    border: 2px solid #340c4d;
+    box-shadow: 0 0 5px #340c4d,
+        0 0 10px #340c4d,
+        0 0 15px #340c4d
 }

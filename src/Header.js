@@ -8,8 +8,8 @@ class Header extends React.Component {
     render() {
         return (
             <>
-                <h1>Style by Mish</h1>
-                <p> Style, Art, & Creative Direction</p>
+                <h1>STYLE BY MISH</h1>
+                <p> STYLE, ART, & CREATIVE DIRECTION</p>
                 <Navigation/>
             </>
         );
