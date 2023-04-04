@@ -1,5 +1,28 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Gotham-Bold&display=swap');
+
+/* MULTI COLOR BACKGROUND */
+/* body {
+  font-family: 'Fira Sans', sans-serif;
+  background: linear-gradient(100deg, #ffc800, #61dafb);
+  height: 100vh;
+  background-size: 400% 400% !important;
+  animation: gradient 15s ease infinite;
+} */
+
+/* BLACK TO WHITE BACKGROUND */
+body {
+  font-family: 'Fira Sans', sans-serif;
+  background: linear-gradient(to bottom, white, gray);
+  height: 100vh;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  -webkit-animation: gradient 15s ease infinite;
+}
+
 .App {
   text-align: center;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .App-logo {
@@ -22,6 +45,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Gotham-Bold', sans-serif;
 }
 
 .App-link {
@@ -38,15 +62,52 @@
   }
 }
 
-p, h1 {
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+p,
+h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Gotham-Bold', sans-serif;
 }
 
-a {
+ul {
+  list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 60px;
+  font-family: 'Fira Sans', sans-serif;
+}
 
+nav {
+  background-color: black;
+    margin: 20px 20px 30px 40px;
+    padding: 15px;
+    width: 100%;
+}
+nav a {
+  color: white;
+  transition: color 0.5s;
+}
+
+nav a:hover {
+  color: purple;
+}
+
+nav:hover a {
+  transform: translateX(10px);
 }
