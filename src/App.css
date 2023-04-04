@@ -92,13 +92,20 @@ ul {
   gap: 60px;
   font-family: 'Fira Sans', sans-serif;
 }
+
+nav {
+  background-color: black;
+    margin: 20px 20px 30px 40px;
+    padding: 15px;
+    width: 100%;
+}
 nav a {
   color: white;
   transition: color 0.5s;
 }
 
 nav a:hover {
-  color: black;
+  color: purple;
 }
 
 nav:hover a {

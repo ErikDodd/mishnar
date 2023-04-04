@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.css';
 
-
-
-class Prop extends React.Component {
-    render() {
-        return (
-            <>
-
-            </>
-        );
-    }
+function Prop() {
+    return (
+        <>
+            <h1>TESTING</h1>
+        </>
+    );
 }
 
 export default Prop;

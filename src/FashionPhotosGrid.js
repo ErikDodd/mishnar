@@ -3,7 +3,7 @@ import './PhotosGrid.css';
 
 
 
-class PhotosGrid extends React.Component {
+class FashionPhotosGrid extends React.Component {
     render() {
         return (
             <div className="photos-grid">
@@ -15,4 +15,4 @@ class PhotosGrid extends React.Component {
     }
 }
 
-export default PhotosGrid;
+export default FashionPhotosGrid;
