@@ -6,7 +6,7 @@ export const Nav = styled.nav`
   background: #000000;
   height: 85px;
   display: flex;
-  justify-content: center; // center align the items horizontally
+  justify-content: space-between; // distribute the space evenly between items
   align-items: center; // center align the items vertically
   padding: 0 5%; // changed the padding to be 5% on both sides
   z-index: 12;
@@ -48,7 +48,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
+  margin-right: auto; // move this to the left as much as possible
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -57,7 +57,7 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-  margin-right: 24px;
+  margin-left: auto; // move this to the right as much as possible
   @media screen and (max-width: 768px) {
     display: none;
   }

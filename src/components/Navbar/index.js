@@ -13,19 +13,19 @@ const Navbar = () => {
                 <Bars />
                 <NavMenu>
                     <NavLink to='/Fashion' activeStyle>
-                        Fashion
+                        FASHION
                     </NavLink>
                     <NavLink to='/Prop' activeStyle>
-                        Prop
+                        PROP
                     </NavLink>
                     <NavLink to='/Ecomm' activeStyle>
-                        E-Comm
+                        E-COMM
                     </NavLink>
                     <NavLink to='/Contact' activeStyle>
-                        Contact
+                        BIO/CONTACT
                     </NavLink>
                     <NavLink to='/Clients' activeStyle>
-                        Clients
+                        CLIENTS
                     </NavLink>
 
                 </NavMenu>
