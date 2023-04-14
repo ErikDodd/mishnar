@@ -6,23 +6,40 @@ export const Nav = styled.nav`
   background: #000000;
   height: 85px;
   display: flex;
-  justify-content: space-between; // distribute the space evenly between items
-  align-items: center; // center align the items vertically
-  padding: 0 5%; // changed the padding to be 5% on both sides
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
   z-index: 12;
-  width: 100%; // set width to 100% to cover the entire width of the browser
+  width: 100%;
+  position: fixed;
+  top: 0; /* add top: 0 to fix the component at the very top of the page */
+`;
+
+export const NavHeader = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const NavTitle = styled.h1`
+  color: #FFFFFF;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-right: 1rem;
+`;
+
+export const NavLinkContainer = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
 export const NavLink = styled(Link)`
   color: #FFFFFF;
-  display: flex;
-  align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  flex: 1; // distribute the space evenly across the navigation
-  justify-content: center; // center align the items horizontally
   &:hover {
     color: #d300ff;
   }
@@ -48,7 +65,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: auto; // move this to the left as much as possible
+  margin-left: auto;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -57,7 +74,7 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-  margin-left: auto; // move this to the right as much as possible
+  margin-right: 5%;
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -80,3 +97,4 @@ export const NavBtnLink = styled(Link)`
     color: #808080;
   }
 `;
+

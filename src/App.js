@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Header from './Header.js';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Clients from './pages/Clients';
@@ -14,7 +13,6 @@ class App extends React.Component {
     return (
       <>
         <Router>
-          <Header />
           <Navbar />
           <Routes>
             <Route path='/Fashion' element={<Fashion />} />
