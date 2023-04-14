@@ -4,6 +4,8 @@
     grid-gap: 100px;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
+    /* add margin-top to start 150px down from the top of the browser */
 }
 
 .photos-grid img {
@@ -14,8 +16,6 @@
 
 .photos-grid img:hover {
     transform: scale(1.1);
-    border: 2px solid #2a2f23;
-    box-shadow: 0 0 5px #2a2f23,
-        0 0 10px #2a2f23,
-        0 0 15px #2a2f23
+    border: 2px solid #bf40bf;
+    box-shadow: 0 0 5px #bf40bf, 0 0 10px #bf40bf, 0 0 15px #bf40bf;
 }
