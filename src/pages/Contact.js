@@ -12,6 +12,7 @@ const Contact = () => {
 
     return (
         <div style={divStyle}>
+            <h2>BIO/CONTACT</h2>
             <img src="assets/michele.jpg" alt="A beautiful photo" style={{ width: '25%', height: 'auto' }} />
             <p id="bio">Michele 'Mish' Andrews is an art, style, and creative director, fueled by her passion and dedication for her clients and art. Her services include storytelling through creative development, brand direction, campaign, video, and social media.</p>
             <a href="mailto:michele.e.andrews@gmail.com">Contact Michele</a>

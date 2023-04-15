@@ -32,8 +32,9 @@ function Fashion() {
     ];
     return (
         <>
+            <h2>FASHION</h2>
             <FashionPhotosGrid photos={photos} />
-            
+
         </>
     );
 }
