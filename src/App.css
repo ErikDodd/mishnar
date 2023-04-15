@@ -110,6 +110,16 @@ h1 {
   background-color: #f9f9f9;
 }
 
+h2 {
+  position: fixed;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  /* margin-top: 30px; */
+  /* margin-bottom: 30px; */
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -139,7 +149,7 @@ p {
 }
 
 .modal img {
-  max-width: 90gst%;
+  max-width: 90%;
   max-height: 75%;
   padding: 20px;
   border: 2px solid white;

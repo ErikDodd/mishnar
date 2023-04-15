@@ -1,9 +1,5 @@
 import React from 'react';
 import PropPhotosGrid from '../components/PropPhotosGrid';
-import { useState } from "react";
-// import Modal from '../components/Modal';
-
-
 
 const Prop = () => {
 
@@ -30,12 +26,10 @@ const Prop = () => {
         { src: 'assets/prop21.jpg', alt: 'Prop Photo 20' },
     ];
 
-    // const [selectedImage, setSelectedImage] = useState(null);
-
     return (
         <>
+            <h2>PROP</h2>
             <PropPhotosGrid propPhotos={propPhotos} />
-            
         </>
     );
 };
