@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../PhotosGrid.css';
+import '../components/PhotosGrid.css';
 import Modal from '../components/Modal';
 
 const PropPhotosGrid = ({ propPhotos }) => {
