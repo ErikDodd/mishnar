@@ -1,5 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Gotham-Bold&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Gotham-Bold&display=swap'); */
 
 
 .App {
@@ -60,10 +60,11 @@
 
 nav {
   background-color: #252525;
-    margin: 5px 20px 30px 40px;
-    padding: 15px;
-    width: 100%;
+  margin: 5px 20px 30px 40px;
+  padding: 15px;
+  width: 100%;
 }
+
 nav a {
   color: #f9f9f9;
   transition: color 0.25s;
@@ -91,7 +92,6 @@ body {
   animation: gradient 15s ease infinite;
   -webkit-animation: gradient 15s ease infinite;
 }
-
 
 
 h5,
@@ -132,8 +132,8 @@ ul {
 
 p {
   width: 50%;
-    margin: 40px auto;
-    text-align: center;
+  margin: 40px auto;
+  text-align: center;
 }
 
 .modal {
@@ -152,5 +152,5 @@ p {
   max-width: 90%;
   max-height: 75%;
   padding: 20px;
-  border: 2px solid white;
+  border: 5px solid #f9f9f9;
 }

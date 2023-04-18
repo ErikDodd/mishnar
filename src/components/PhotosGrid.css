@@ -4,18 +4,18 @@
     grid-gap: 100px;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 200px;
     /* add margin-top to start 150px down from the top of the browser */
 }
 
 .photos-grid img {
     max-width: 150%;
     max-height: 150%;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .photos-grid img:hover {
     transform: scale(1.1);
     border: 2px solid #bf40bf;
-    box-shadow: 0 0 5px #bf40bf, 0 0 10px #bf40bf, 0 0 15px #bf40bf;
+    box-shadow: 0 0 10px #bf40bf, 0 0 10px #bf40bf, 0 0 15px #bf40bf;
 }
