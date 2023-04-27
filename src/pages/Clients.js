@@ -7,17 +7,29 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin-top: 150px; /* add margin to the top */
+  margin-top: 20px; /* add margin to the top */
 `;
 
 const List = styled.ul`
-  list-style: none;
-  padding: 0;
-  margin: 0;
   display: flex;
-  flex-direction: column;
-  gap: 0;
+  flex-wrap: wrap;
+   margin-top: 175px;
+  justify-content: space-between;
+  & > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+  }
 `;
+// const List = styled.ul`
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 0;
+// `;
 
 const ListItem = styled.li`
   display: block;
