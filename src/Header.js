@@ -9,7 +9,7 @@ class Header extends React.Component {
         return (
             <>
                 <h1>STYLE BY MISH</h1>
-                <h5> STYLE, ART, & CREATIVE DIRECTION</h5>
+                <h5> STYLE/ART/CREATIVE DIRECTION</h5>
                 
             </>
         );
