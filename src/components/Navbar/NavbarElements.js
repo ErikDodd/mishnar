@@ -27,7 +27,20 @@ export const NavTitle = styled.h1`
   align-items: center;
   margin: 0;
   padding-right: 1rem;
+
+  &.title {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    text-align: center
+  }
+
+  & .subtitle {
+    display: block !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+  }
 `;
+
 
 export const NavLinkContainer = styled.div`
   display: flex;
