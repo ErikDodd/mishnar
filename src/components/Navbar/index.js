@@ -14,8 +14,8 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavHeader>
-                    <NavTitle>
-                        STYLE BY MISH - STYLING, ART, & CREATIVE DIRECTION
+                    <NavTitle className="title">
+                        STYLE BY MISH STYLING/ART/CREATIVE DIRECTION
                     </NavTitle>
                 </NavHeader>
                 <Bars />
