@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin-top: 800px; /* add margin to the top */
+  margin-top: 150px; /* add margin to the top */
 `;
 
 const List = styled.ul`
@@ -16,6 +16,7 @@ const List = styled.ul`
   margin: 0;
   display: flex;
   flex-direction: column;
+  gap: 0;
 `;
 
 const ListItem = styled.li`
@@ -27,7 +28,7 @@ const Clients = () => {
 
     return (
         <Wrapper>
-            <h2>Client List</h2>
+            <h2>CLIENT LIST</h2>
             <List>
                 {clients.map((client, index) => (
                     <ListItem key={index}>{client}</ListItem>

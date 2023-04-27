@@ -60,9 +60,10 @@
 
 nav {
   background-color: #252525;
-  margin: 5px 20px 30px 40px;
+  margin: 5px 40px 30px 40px;
   padding: 15px;
   width: 100%;
+  text-align: left;
 }
 
 nav a {
@@ -75,23 +76,23 @@ nav a:hover {
 }
 
 /* MULTI COLOR BACKGROUND */
-/* body {
+body {
   font-family: 'Fira Sans', sans-serif;
   background: linear-gradient(100deg, #ffc800, #61dafb);
   height: 100vh;
   background-size: 400% 400% !important;
   animation: gradient 15s ease infinite;
-} */
+}
 
 /* BLACK TO WHITE BACKGROUND */
-body {
+/* body {
   font-family: 'Fira Sans', sans-serif;
   background: linear-gradient(to bottom, white, #f9f9f9);
   height: 100vh;
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   -webkit-animation: gradient 15s ease infinite;
-}
+} */
 
 
 h5,
@@ -102,6 +103,7 @@ h1 {
   font-family: 'Gotham-Bold', sans-serif;
   color: #252525;
   margin: 0 0 0 50px;
+  font-size: 130%;
   /* position: fixed; */
   /* top: 0;
   left: 0; */
@@ -116,8 +118,8 @@ h2 {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 ul {
