@@ -98,28 +98,6 @@ h1 {
 }
 
 
-
-.header-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.title,
-.subtitle {
-  font-family: 'Gotham-Bold', sans-serif;
-  color: #252525;
-  margin: 0 0 0 50px;
-  font-size: 130%;
-  width: 100%;
-  background-color: #f9f9f9;
-}
-
-.subtitle {
-  font-size: 80%;
-  margin-top: 5px;
-}
-
-
 h2 {
   position: fixed;
   top: 90px;
@@ -149,6 +127,27 @@ body {
   animation: gradient 15s ease infinite;
   -webkit-animation: gradient 15s ease infinite;
 } */
+
+.bio-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+}
+
+.bio-image {
+  width: 25%;
+  height: auto;
+  margin-right: 20px;
+  margin-top: 110px;
+}
+
+.bio-text {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 110px;
+}
 
 
 ul {
