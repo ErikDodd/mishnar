@@ -14,15 +14,15 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavHeader>
-                    <NavTitle className="title">
-                        STYLE BY MISH STYLING/ART/CREATIVE DIRECTION
+                    <NavTitle>
+                        STYLE BY MISH 
+                        STYLING/ART/CREATIVE DIRECTION
                     </NavTitle>
+                    <NavTitle/>
+                   
                 </NavHeader>
                 <Bars />
                 <NavMenu>
-                    <NavLink to='/Clients' activeStyle>
-                        CLIENTS
-                    </NavLink>
                     <NavLink to='/Fashion'activeStyle>
                         FASHION
                     </NavLink>
@@ -34,6 +34,9 @@ const Navbar = () => {
                     </NavLink>
                     <NavLink to='/Contact' activeStyle>
                         BIO/CONTACT
+                    </NavLink>
+                    <NavLink to='/Clients' activeStyle>
+                        CLIENTS
                     </NavLink>
                 </NavMenu>
 
