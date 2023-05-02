@@ -16,8 +16,9 @@ const Contact = () => {
             </div>
             <a className="email" href="mailto:michele.e.andrews@gmail.com">Contact Michele</a>
             <a className="instagram" href="https://www.instagram.com/mishnar/">
-                Visit Michele's Instagram <FontAwesomeIcon icon={faInstagram} style={{ color: "#d300ff", }} />
+                Visit Michele's Instagram 
             </a>
+            <FontAwesomeIcon icon={faInstagram} style={{ color: "#d300ff", }} />
             
             
         </div>
