@@ -45,7 +45,7 @@ export const NavLink = styled(Link)`
     color: #a901ff;
   }
   &.active {
-    color: #00bfff;
+    color: #61dafb;
     background-color: #;
   }
 `;
