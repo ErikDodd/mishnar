@@ -16,6 +16,6 @@
 
 .photos-grid img:hover {
     transform: scale(1.1);
-    border: 2px solid #d300ff;
-    box-shadow: 0 0 10px #d300ff, 0 0 10px #d300ff, 0 0 15px #d300ff;
+    border: 2px solid #61dafb;
+    box-shadow: 0 0 10px #61dafb, 0 0 10px #61dafb, 0 0 15px #61dafb;
 }
