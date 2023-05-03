@@ -7,6 +7,7 @@ import Prop from './pages/Prop';
 import Contact from './pages/Contact';
 import Ecomm from './pages/Ecomm';
 import Fashion from './pages/Fashion';
+import './fontawesome';
 
 class App extends React.Component {
   render() {
