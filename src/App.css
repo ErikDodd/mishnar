@@ -110,6 +110,26 @@ h2 {
   margin-top: 60px;
   padding-top: 20px;
   margin-bottom: 20px;
+
+
+
+}
+
+h2:hover {
+  font-variation-settings: "wght" 100, "ital" 0;
+  text-shadow: none;
+
+  transition: all 0.5s;
+  -webkit-text-stroke: 2px #252525;
+  font-variation-settings: "wght" 900, "ital" 1;
+  font-size: 2rem;
+  color: transparent;
+  text-shadow: 10px 10px 0px #61dafb,
+    15px 15px 0px #a901ff;
+    /* 20px 20px 0px #E9019A; */
+    /* 25px 25px 0px #F40468,
+    45px 45px 10px #482896; */
+  cursor: pointer;
 }
 
 /* MULTI COLOR BACKGROUND */
@@ -123,7 +143,7 @@ body {
 }
 
 /* BLACK TO WHITE BACKGROUND */
-/* body {
+body {
   font-family: 'Fira Sans', sans-serif;
   background: linear-gradient(to bottom, white, #f9f9f9);
   height: 100vh;
@@ -131,7 +151,7 @@ body {
   scroll-behavior: smooth;
   animation: gradient 15s ease infinite;
   -webkit-animation: gradient 15s ease infinite;
-} */
+}
 
 .bio-wrapper {
   display: flex;
