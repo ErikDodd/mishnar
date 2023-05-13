@@ -2,6 +2,12 @@
 
 # ATTRIBUTIONS
 
+A special thank you to the instagram account @parth.webdev who provided the base idea/set-up for the CSS scrollbar. I adjusted the code to fit my style preferences but this was a cool, simple idea. A super cool way to add a little touch of style and color!
+
+A special thank you to @coding.random instagram account for giving me the base idea/set-up for the CSS animation on the H2 header with the multiple color shadow effect. I removed some of the shadows and made some small changes but this was another cool idea to add some color/style to the page.
+
+A special thank you to ChatGPT. It's like having a personal tutor. I used ChatGPT to debug code and also specifically to help me get the Navigation/Routing for the website set-up.
+
 
 
 <!-- # Getting Started with Create React App
