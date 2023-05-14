@@ -7,6 +7,7 @@ import Prop from './pages/Prop';
 import Contact from './pages/Contact';
 import Ecomm from './pages/Ecomm';
 import Fashion from './pages/Fashion';
+import Footer from './components/Footer';
 import './fontawesome';
 
 class App extends React.Component {
@@ -23,6 +24,7 @@ class App extends React.Component {
             <Route path='/Clients' element={<Clients />} />
           </Routes>
         </Router>
+        <Footer/>
       </>
     );
   }
