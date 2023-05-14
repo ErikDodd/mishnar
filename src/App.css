@@ -44,7 +44,7 @@ nav a {
   text-shadow: 0 0 #f9f9f9, 0 1.2em #61dafb;
   overflow: hidden;
   transition: 0.5s;
-  
+
 }
 
 
@@ -56,14 +56,13 @@ nav a:hover {
 
 h1 {
   display: flex;
-  justify-content: flex-start;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   font-family: 'Raleway', sans-serif;
-  color: #252525;
-  margin: 0 0 0 50px;
-  font-size: 130%;
+  color: #f9f9f9;
+  margin: 0 0 0 0px;
   width: 100%;
-  background-color: #f9f9f9;
+  
 }
 
 
@@ -94,10 +93,21 @@ h2:hover {
   color: transparent;
   text-shadow: 10px 10px 0px #61dafb,
     15px 15px 0px #a901ff;
-    /* 20px 20px 0px #E9019A; */
-    /* 25px 25px 0px #F40468,
+  /* 20px 20px 0px #E9019A; */
+  /* 25px 25px 0px #F40468,
     45px 45px 10px #482896; */
   cursor: pointer;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  color: #f9f9f9;
+  margin: 0 0 0 0px;
+  width: 100%;
+
 }
 
 ::-webkit-scrollbar {
@@ -193,7 +203,7 @@ body {
 
 button:hover {
   background-color: #6A0DAD;
-  
+
 }
 
 .buttons {
@@ -246,4 +256,19 @@ p {
   max-height: 75%;
   padding: 20px;
   border: 5px solid #f9f9f9;
+}
+
+.footer {
+  background: #252525;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4%;
+  z-index: 12;
+  width: 90%;
+  position: fixed;
+  left: 45px;
+  bottom: 0;
+  color: #f9f9f9;
 }
