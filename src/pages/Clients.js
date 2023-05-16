@@ -2,41 +2,45 @@ import React from 'react';
 import styled from "styled-components";
 
 const Wrapper = styled.div`
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin-top: 20px; /* add margin to the top */
+  margin-top: 200px;
 `;
 
 const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
-   margin-top: 175px;
+  margin-top: 175px;
   justify-content: space-between;
-  & > ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex: 1;
-  }
+  width: 100%;
+  max-width: 800px;
 `;
-// const List = styled.ul`
-//   list-style: none;
-//   padding: 0;
-//   margin: 0;
-//   display: flex;
-//   flex-direction: column;
-//   gap: 0;
-// `;
 
 const ListItem = styled.li`
   display: block;
+  width: calc(17% - 10px);
+  margin-bottom: 10px;
+
+  @media (max-width: 800px) {
+    width: calc(33.33% - 10px);
+  }
+
+  @media (max-width: 600px) {
+    width: calc(50% - 10px);
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+  }
 `;
 
+
 const Clients = () => {
-    const clients = ['Organic by John Patrick', 'Caron Callahan', 'Thom Browne', 'Popular Science', 'Alvin Goldfarb', 'Xbox', 'Wings and Horns', 'Nike', 'Microsoft Surface', 'Plant Paper', 'Columbia Sportswear', 'Autre Magazine', 'MTV', 'GQ', 'INC Magazine', 'Self Magazine', 'Faris Jewelry', 'Barneys', 'See Kai Run', 'TomboyX', 'Olderbrother', 'Barneys', 'Totokaelo', 'Baby and Co', 'Grey Matters', 'Girlfriend Collective', 'Labucq', 'Reebok'];
+  const clients = ['Nike', 'Thom Browne', 'Xbox', 'Microsoft Surface', 'Columbia Sportswear', 'GQ', 'Reebok', 'Organic by John Patrick', 'Caron Callahan',  'Popular Science', 'Alvin Goldfarb',  'Wings and Horns', 'Plant Paper',  'Autre Magazine', 'MTV', 'INC Magazine', 'Self Magazine', 'Faris Jewelry', 'Barneys', 'See Kai Run', 'TomboyX', 'Olderbrother', 'Barneys', 'Totokaelo', 'Baby and Co', 'Grey Matters', 'Girlfriend Collective', 'Labucq'];
 
     return (
         <Wrapper>
