@@ -40,8 +40,7 @@ nav a {
   color: #f9f9f9;
   transition: color 0.25s;
   line-height: 1.2em;
-  /* color: #0000; */
-  text-shadow: 0 0 #f9f9f9, 0 1.2em #61dafb;
+  /* text-shadow: 0 0 #f9f9f9, 0 1.2em #61dafb; */
   overflow: hidden;
   transition: 0.5s;
 
@@ -92,7 +91,7 @@ h2:hover {
   font-size: 3rem;
   color: transparent;
   text-shadow: 10px 10px 0px #61dafb,
-    15px 15px 0px #a901ff;
+    15px 15px 0px #6A0DAD;
   /* 20px 20px 0px #E9019A; */
   /* 25px 25px 0px #F40468,
     45px 45px 10px #482896; */
@@ -125,6 +124,7 @@ h3 {
 }
 
 /* MULTI COLOR BACKGROUND */
+
 /* body {
   font-family: 'Fira Sans', sans-serif;
   background: linear-gradient(100deg, #ffc800, #61dafb);
@@ -135,6 +135,7 @@ h3 {
 } */
 
 /* BLACK TO WHITE BACKGROUND */
+
 body {
   font-family: 'Fira Sans', sans-serif;
   background: linear-gradient(to bottom, white, #f9f9f9);
@@ -158,9 +159,9 @@ body {
 }
 
 .bio-image {
-  width: 55%;
+  width: 50%;
   height: auto;
-  margin-right: 20px;
+  margin-right: 60px;
   margin-bottom: 20px;
   margin-top: 50px;
 }
@@ -169,6 +170,7 @@ body {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 10px;
+  margin-left: 40px;
   width: 75%;
 }
 
