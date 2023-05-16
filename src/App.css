@@ -48,7 +48,7 @@ nav a {
 
 
 nav a:hover {
-  color: #bf40bf;
+  color: #6A0DAD;
   text-shadow: 0 -1.2em #f9f9f9, 0 0 #61dafb;
 }
 
@@ -114,7 +114,7 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(180deg, #61dafb, #a901ff);
+  background-image: linear-gradient(180deg, #61dafb, #6A0DAD);
   box-shadow: inset 5px 2px 5px 0 rgba(255, 255, 255, 0.5);
   border-radius: 100px;
 }
