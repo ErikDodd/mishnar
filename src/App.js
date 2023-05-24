@@ -10,25 +10,26 @@ import Fashion from './pages/Fashion';
 import Footer from './components/Footer';
 import './fontawesome';
 
-class App extends React.Component {
-  render() {
-    return (
-      <>
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path='/Fashion' element={<Fashion />} />
-            <Route path='/Prop' element={<Prop />} />
-            <Route path='/Ecomm' element={<Ecomm />} />
-            <Route path='/Contact' element={<Contact />} />
-            <Route path='/Clients' element={<Clients />} />
-          </Routes>
-        </Router>
-        <Footer/>
-      </>
-    );
-  }
-}
+
+const App = () => {
+
+  return (
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/Fashion' element={<Fashion />} />
+          <Route path='/Prop' element={<Prop />} />
+          <Route path='/Ecomm' element={<Ecomm />} />
+          <Route path='/Contact' element={<Contact />} />
+          <Route path='/Clients' element={<Clients />} />
+        </Routes>
+      </Router>
+      <Footer />
+    </>
+  );
+};
+
 
 export default App;
 

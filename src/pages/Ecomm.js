@@ -25,7 +25,7 @@ const Ecomm = () => {
 
     return (
         <>
-            <h2>ECOMM</h2>
+            <h2>E-COMM</h2>
             <EcommPhotosGrid ecommPhotos={ecommPhotos} />
         </>
     );
