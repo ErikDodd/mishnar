@@ -6,17 +6,15 @@ import '../App.css';
 
 const Footer = ({ bottomElementHeight }) => {
     const footerStyle = {
-        marginTop: `${bottomElementHeight + 150}px`
+        marginTop: `${bottomElementHeight + 100}px`
     };
 
     return (
-        <>
-            <div className="footer" style={footerStyle}>
-                <h3>STYLING</h3>
-                <h3>CREATIVE DIRECTION</h3>
-                <h3>ART DIRECTION</h3>
-            </div>
-        </>
+        <div className="footer" style={footerStyle}>
+            <h3>STYLING</h3>
+            <h3>CREATIVE DIRECTION</h3>
+            <h3>ART DIRECTION</h3>
+        </div>
     );
 };
 

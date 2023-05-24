@@ -260,6 +260,10 @@ p {
   border: 5px solid #f9f9f9;
 }
 
+#bottomElement {
+  height: 150px;
+}
+
 .footer {
   background: #252525;
   height: 58px;
