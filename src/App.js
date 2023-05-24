@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect, useState, useRef } from 'react';
 import Clients from './pages/Clients';
 import Prop from './pages/Prop';
 import Contact from './pages/Contact';
@@ -12,6 +13,22 @@ import './fontawesome';
 
 
 const App = () => {
+  const [bottomElementHeight, setBottomElementHeight] = useState(0);
+  const bottomElementRef = useRef(null);
+
+  useEffect(() => {
+    const calculateBottomElementHeight = () => {
+      const height = bottomElementRef.current.offsetHeight;
+      setBottomElementHeight(height);
+    };
+
+    calculateBottomElementHeight();
+    window.addEventListener('resize', calculateBottomElementHeight);
+
+    return () => {
+      window.removeEventListener('resize', calculateBottomElementHeight);
+    };
+  }, []);
 
   return (
     <>
@@ -25,7 +42,8 @@ const App = () => {
           <Route path='/Clients' element={<Clients />} />
         </Routes>
       </Router>
-      <Footer />
+      <div ref={bottomElementRef} id="bottomElement"></div>
+      <Footer bottomElementHeight={bottomElementHeight} />
     </>
   );
 };
