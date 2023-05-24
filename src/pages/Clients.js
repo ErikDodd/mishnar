@@ -40,7 +40,7 @@ const ListItem = styled.li`
 
 
 const Clients = () => {
-  const clients = ['Nike', 'Thom Browne', 'Xbox', 'Microsoft Surface', 'Columbia Sportswear', 'GQ', 'Reebok', 'Organic by John Patrick', 'Caron Callahan',  'Popular Science', 'Alvin Goldfarb',  'Wings and Horns', 'Plant Paper',  'Autre Magazine', 'MTV', 'INC Magazine', 'Self Magazine', 'Faris Jewelry', 'Barneys', 'See Kai Run', 'TomboyX', 'Olderbrother', 'Barneys', 'Totokaelo', 'Baby and Co', 'Grey Matters', 'Girlfriend Collective', 'Labucq'];
+  const clients = ['Nike', 'Thom Browne', 'Xbox', 'Microsoft Surface', 'Columbia Sportswear', 'GQ', 'Reebok', 'Doc Martins', 'Pokemon', 'Harley Davidson', 'Outdoor Voices', 'Organic by John Patrick', 'MTV', 'Caron Callahan',  'Popular Science', 'Alvin Goldfarb',  'Wings and Horns', 'Plant Paper',  'Autre Magazine',  'INC Magazine', 'Self Magazine', 'Faris Jewelry', 'Barneys', 'See Kai Run', 'TomboyX', 'Olderbrother', 'Barneys', 'Totokaelo', 'Baby and Co', 'Grey Matters', 'Girlfriend Collective', 'Labucq'];
 
     return (
         <Wrapper>
