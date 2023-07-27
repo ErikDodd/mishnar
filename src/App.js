@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useEffect, useState, useRef } from 'react';
+import Homepage from "./pages/Homepage";
 import Clients from './pages/Clients';
 import Prop from './pages/Prop';
 import Contact from './pages/Contact';
@@ -35,13 +36,15 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/Fashion' element={<Fashion />} />
-          <Route path='/Prop' element={<Prop />} />
-          <Route path='/Ecomm' element={<Ecomm />} />
-          <Route path='/Contact' element={<Contact />} />
-          <Route path='/Clients' element={<Clients />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="/Fashion" element={<Fashion />} />
+          <Route path="/Prop" element={<Prop />} />
+          <Route path="/Ecomm" element={<Ecomm />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Clients" element={<Clients />} />
         </Routes>
       </Router>
+
       <div ref={bottomElementRef} id="bottomElement"></div>
       <Footer bottomElementHeight={bottomElementHeight} />
     </>
